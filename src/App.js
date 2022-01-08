@@ -6,7 +6,6 @@ import Starred from "./pages/Starred";
 function App() {
   return (
     <>
-      <Nav />
       <Routes>
         <Route index element={<Home />} />
         <Route path="/starred" element={<Starred />} />
