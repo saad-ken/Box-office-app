@@ -4,5 +4,6 @@ export async function apiGET(queryString) {
   const response = await fetch(`${API_BASE_URL}${queryString}`).then((res) =>
     res.json()
   );
+
   return response;
 }
