@@ -9,7 +9,7 @@ export const FlexGrid = styled.div`
 export const SearchCard = styled.div`
   width: 300px;
   height: 100%;
-  margin: 0 15px 0px 40px;
+  margin: 30px 15px 0 40px;
 
   .img-wrapper {
     width: 100%;
