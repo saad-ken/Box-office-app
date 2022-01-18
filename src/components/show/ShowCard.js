@@ -5,7 +5,7 @@ import { StyledShowCard } from "./ShowCard.styled";
 
 const ShowCard = ({ id, name, image, summary, onStarClick, isStarred }) => {
   const summaryAsText = summary
-    ? `${summary.split(" ").slice(0, 11).join(" ").replace(/<.+?>/g, "")}...`
+    ? `${summary.split(" ").slice(0, 8).join(" ").replace(/<.+?>/g, "")}...`
     : "No description";
 
   return (
